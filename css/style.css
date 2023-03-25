@@ -11,6 +11,13 @@
     background-color: #08114A;
 }
 
+.tamImgHome {
+  width:min-content;
+  align-items: center;
+  align-content: center;
+  
+ }
+
 .fondoImgRelax{
     background: url(../img/delegar.jpg);
     background-repeat: no-repeat;
