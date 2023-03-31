@@ -7,6 +7,13 @@
     display: none;
   }
 
+.back{
+  background: none;
+}
+
+.tamSeccion{
+  height: 2000px;
+}
 .fondoHeader{
     background-color: #08114A;
 }
