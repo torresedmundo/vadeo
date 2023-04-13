@@ -17,25 +17,152 @@
 </head>
 <body class="">
     <a name="inicio"></a>
+    
     <header class="m-0 p-0 ">
-        <div class="row ">
-            <nav class="navbar navbar-light fondoHeader fixed-top">
+            <nav class="navbar navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                    <a class="nav-link text-white m-0 p-0" href="#inicio"><img src="./img/Logo V1.png" class="img-fluid tamImgHeader" alt="logo header"><span class="paleta1"> V</span class="">ADEO</span></a>  
+                        <a class="nav-link paleta2 m-0 p-0" href="#inicio"><img src="./img/Logo V1.png" class="img-fluid tamImgHeader" alt="logo header"><span class="paleta1"> V</span class="">ADEO</span></a>  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header m-4">
+                      <h5 class="offcanvas-title text-info" id="offcanvasNavbarLabel">Bienvenido</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 zIndexMenu m-4 mt-2">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary zIndexMenu" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link text-secondary zIndexMenu" href="#QueHacemos">Que Hacemos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary zIndexMenu" href="#nosotros">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary zIndexMenu" href="#contactanos">Contáctanos</a>
+                            </li>
+                        </ul>
+                        
+                        <div>
+                            <h5 class="mt-3 pt-3 text-info ps-4">Contáctanos</h5>
+                        </div>
+                        <div class=" row d-flex mt-3 pt-3 ps-4">
+                            <div class="col-md-3">
+                                <a href="https://api.whatsapp.com/send?phone=+56983909771&text=Hola, Soy EMPRESA, necesito más información sobre los servicios de VADEO!" target="_blank"><img src="./img/whatsapp.png" class="img-fluid tamImgContMenu"  alt="imagen whatsapp"></a>    
+                            </div>
+                            <div class="col-md-4">
+                                <p>Empresas</p>
+                            </div>
+                        </div>
+                        <div class=" row d-flex mt-2 pt-3 ps-4">
+                            <div class="col-md-3">
+                                <a href="mailto:edmundo@vadeo.cl"><img src="./img/gmail.png" class="img-fluid tamImgContMenu" alt="imagen mail"></a>    
+                            </div>
+                            <div class="col-md-4">
+                                <p>Mail</p>
+                            </div>
+                    </div>
+                  </div>
                 </div>
-            </nav>
-        </div>
+              </nav>
+       
     </header>
-    <a name="inicio"></a>
-    <section class="bg-light">
+    <section class="container-fluid fondoImgHome tamImgHome respPequeñoHome">
+        <div class="row d-flex col-md-12">
+                <div class="col-md-12 text-center ps-5 pt-4 mt-5">
+                    <br>
+                    <br>
+                    <p class="tamTextHome paleta12 alinTextHome fw-bold">Soluciones de <span class="fw-bold displayTextHome paletaTextHome">Recursos Humanos</span></p>
+                    <p class="tamTextHome paleta12 pt-3 mt-3 alinTextHome fw-bold">que marcan la <span class="fw-bold displayTextHome paletaTextHome">Diferencia</span></p>
+                </div>
+        </div>
+    </section>
+    <section class="m-0 p-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="text-center pt-1 p-0 col-md-12 pb-1 fondoLlamAcc1">
+                        <p class="ps-4 pe-4 paleta3">¿Eres <span class="paleta1 fs-5">EMPRESA</span> y necesitas orientación sobre los servicios y sus detalles?</p>
+                        <a href="https://api.whatsapp.com/send?phone=+56983909771&text=Hola, Soy EMPRESA, necesito más información sobre los servicios de VADEO" class="btn btn-outline-info mb-2" target="_blank">Haz click aquí</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Intro Informativa Pastillas -->
+    <a class="" name="QueHacemos"></a>
+    <section class=" pt-5 bg-light">
         <div class="container-fluid">
             <div class="row d-flex">
                 <div class="text-center mb-5">
-                    <div class="container pt-5">
-                        <div class="row pt-5">
-                            <div class="col-md-12 text-center">
-                                <h1 class="paleta2">Pronto !!!</h1>
-                                <img src="./img/Logo V1.png" alt="">
+                    <h1 class="text-center mt-5 fs-2">Servicios de Recursos Humanos en LatinoAmérica</h1>
+                    <h5 class="text-center mt-5">Servicios a tu medida de Manera ÁGIL y EFICIENTE</h5>
+                    <button class="pastilla colorPastilla1 m-2 mt-5">Retención de Talento</button>
+                    <button class="pastilla colorPastilla2 m-2">Gestión de Reclutamiento y Selección</button>
+                    <button class="pastilla colorPastilla3 m-2">Desarrollo Organizacional</button>
+                    <button class="pastilla colorPastilla4 m-2 m-2">Gestión de Compensaciones</button>
+                    <button class="pastilla colorPastilla5 m-2">Clima Laboral</button>
+                    <button class="pastilla colorPastilla6 m-2">Gestión de Contratación</button>
+                    <button class="pastilla colorPastilla7 m-2">Prevención de Riesgos Laborales</button>
+                    <button class="pastilla colorPastilla8 m-2">Gestión de Talento</button>
+                    <button class="pastilla colorPastilla1 m-2">Analisis de Procesos de Recursos Humanos</button>
+                    <button class="pastilla colorPastilla10 m-2">Gestión de Capacitación Corporativa</button>
+                    <button class="pastilla colorPastilla1 m-2">Gestión de Franquicia Tributaria</button>
+                    <button class="pastilla colorPastilla2 m-2">Gestión de Cumplimiento Documental a Clientes</button>
+                    <br>
+                    <button class="pastilla colorPastilla12 paleta11 m-2">Y Muchos Más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Intro Informativa Proceso -->
+    <!-- Relax -->
+    <section class="fondoImgRelax m-0 p-0">
+        <div class="container-fluid">
+            <div class="col-md-12 pt-4 ps-3">
+                <p class="tamTextRelax alinTextRelax1  paleta11 tamParrafo pt-4">No te <span class="paletaTextRelax displayTextRelax">Desenfoques</span>!</p>
+                <p class="tamTextRelax alinTextRelax2  paleta11 tamParrafo">Nosotros nos <span class="paletaTextRelax displayTextRelax">Encargamos</span>!</p>
+            </div>
+    </div>
+    </section>
+
+    <!-- Porqué Nosotros -->
+    <a name="nosotros"></a>
+    <section class="pt-5 pb-5 bg-light">
+        <div class="col-md-12">
+            <div class="row">
+                <div class=" text-center">
+                    <h3 class="mt-5">¿ Porqué Elegirnos ?</h3>
+                    <h5 class="mt-5 text-center">Somos expertos, entendemos el mercado de laboral y profundizamos constantemente en el Employee Experience</h5>
+                </div>
+                <div class="">
+                    <div class="container-fluid">
+                        <div class="row d-flex">
+                            <div class="text-center mb-5">
+                                <div class="text-center">
+                                    <h3 class="pt-2 mt-5">Nos Caracteriza</h3>
+                                </div>    
+                                <button class="pastilla colorPastilla1 m-2 mt-5">Adaptabilidad de Nuestros Procesos</button>
+                                <button class="pastilla colorPastilla2 m-2">Disponibilidad 24/7</button>
+                                <button class="pastilla colorPastilla3 m-2">Compromiso con tus Resultados</button>
+                                <button class="pastilla colorPastilla4 m-2 m-2">Servicios Personalizados</button>
+                                <button class="pastilla colorPastilla5 m-2">Agilidad</button>
+                                <button class="pastilla colorPastilla6 m-2">Tiempos de Respuesta</button>
+                                <button class="pastilla colorPastilla5 m-2">Red de Profesionales en Todo LatinoAmerica</button>
+                                <button class="pastilla colorPastilla8 m-2">Experiencia en Distintos Rubros</button>
+                                <button class="pastilla colorPastilla1 m-2">Experienica con StartUps</button>
+                                <button class="pastilla colorPastilla10 m-2">Experienica con Pymes</button>
+                                <button class="pastilla colorPastilla3 m-2">Experienica con Multinacionales</button>
+                                <button class="pastilla colorPastilla7 m-2">Más de 15 Años de Experiencia</button>
+                                <button class="pastilla colorPastilla1 m-2">Evaluaciones OnLine</button>
+                                <button class="pastilla colorPastilla6 m-2">Evaluaciones Psicolabirales OnLine</button>
+                                <button class="pastilla colorPastilla8 m-2">Test Psicométricos OnLine</button>
+                                <br>
+                                <button class="pastilla colorPastilla12 paleta11 m-2">Y Muchos Más</button>
                             </div>
                         </div>
                     </div>
@@ -43,10 +170,63 @@
             </div>
         </div>
     </section>
-
-
+    <a name="contactanos"></a>
+    <section class="m-0 p-0 container-fluid mt-5 pb-5 ">
+        <div class="container fondoLinNegras">
+            <div class="row pt-3">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h3 class="pt-5">Contáctanos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 text-center mt-4">
+                    <h5 class="">Escríbenos y nos pondremos en contacto a la brevedad.</h5>
+                </div>
+            </div>
+                <div class="row mt-5">
+                    <div class="text-center pt-3 p-0 col-lg-12 pb-3">
+                        <p class="ps-5 pe-5 ms-5 me-5">¿Eres <span class="paleta1 fs-5">EMPRESA</span> y necesitas orientación sobre los servicios y sus detalles?</p>
+                        <a href="https://api.whatsapp.com/send?phone=+56983909771&text=Hola, Soy EMPRESA, necesito más información sobre los servicios de VADEO!" class="btn btn-outline-info fw-bold" target="_blank">Haz click aquí</a>
+                    </div>
+                </div>
+            <div class="row fs-5 text-center d-flex justify-content-end pb-5">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1 text-center mt-4">
+                        <p class="fs-4">Si lo prefieres, nos puedes enviar un mail!</p>
+                    </div>
+                </div>    
+                <div class="col-md-12">
+                    <a href="mailto:edmundo@vadeo.cl"><img src="./img/gmail.png" class="img-fluid tamImgCont pb-3 pt-2" alt="imagen mail"></a>    
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
+    <footer class="text-center bg-light paleta12 ">
+        <section class="border-top">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 m-0 p-0 mb-4">
+                    <img class="tamImgFooter"  src="./img/logo V1.png" alt="logo Geeks">
+                </div>
+                <div class="col-md-5 mx-auto mb-4 pt-2">
+                    <h6 class="text-uppercase fw-bold mb-4 fs-5">Vadeo</h6>
+                    <p>Servicios de Recursos Humanos</p>
+                    <p>Especialistas en Retención de Talento</p>
+                </div>
+                <div class="col-md-3 mx-auto mb-4 pt-2">
+                    <h6 class="text-uppercase fw-bold mb-4 fs-5">Contacto</h6>
+                    <p> Santiago, Chile</p>
+                    <div class="mb-3">
+                        <a href="https://api.whatsapp.com/send?phone=+56983909771&text=Hola, Soy EMPRESA, necesito más información sobre los servicios de VADEO!" class="textFooterWs text-center paleta12" target="_blank"><img src="./img/whatsapp.png" class="img-fluid tamImgFooter2 me-2"  alt="imagen whatsapp">Información para <span class="paleta1">EMPRESAS</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </footer>
+
     <script src="path/to/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

@@ -24,7 +24,13 @@
   align-content: center;
   
  }
-
+ .fondoImgHome{
+  background: url(../img/escritorio2.jpg);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size:cover;
+  }
+  
 .fondoImgRelax{
     background: url(../img/delegar.jpg);
     background-repeat: no-repeat;
@@ -53,13 +59,8 @@
    }
 
 
-
-
-
-
 .tamImgHeader {
   width: 3rem; }
-
 
 
 .paleta1 {
@@ -70,4 +71,459 @@
 
 .paleta3 {
   color: white; }
+
+
+  .tamTextHome{
+    font-size: 50px;
+   }
+
+.paletaTextHome{
+    color: #F277A4;
+  }
+
+.tamTextRelax{
+    font-size: 50px;
+   }
+
+.paletaTextRelax{
+    color: #3b3b3b;
+  }
+
+.fondoLlamAcc1{
+  background-color:#08114A;
+  
+}
+.fondoLlamAcc2{
+  background-color: rgb(204,160,200);
+}
+.tamCardServ {
+  width: 10rem;
+
+}
+
+.tamImgProce{
+  width: 10rem;
+}
+
+.tamImgNum{
+  width: 3rem;
+  opacity:0.8;
+}
+
+.zIndexMenu{
+  z-index:9999;
+}
+.zIndexTexto{
+  z-index:999;
+}
+.zIndexAtomo{
+  z-index: 1;
+}
+
+.tamImgAtomo {
+  width: 5rem;
+  align-self: center;  
+  justify-content: center;
+  border-radius: 1000px;
+  border-style: solid;
+  border-color: rgb(117,204,186);
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.imgr{
+    -webkit-animation: 9s rotate linear infinite;
+    animation: 9s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+#imgr2 {
+     -webkit-animation-direction: reverse;
+     animation-direction: reverse;
+}
+
+.pastilla{
+    border:none; /*anchura, estilo y color borde*/
+    padding: 15px; /*espacio alrededor texto*/ /*color botón*/
+    color: black; /*color texto*/
+    font-size: 1rem;
+    text-decoration:none; /*decoración texto*/
+    text-transform:capitalize; /*capitalización texto*/
+    font-family:Arial, Helvetica, sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    height: 3.5rem;
+}
+
+.colorPastilla1{
+  background-color: rgb(236, 210, 255);
+}
+.colorPastilla2{
+  background-color: rgb(254,237,168);
+}
+.colorPastilla3{
+  background-color: rgb(252, 242, 255);
+}
+.colorPastilla4{
+  background-color: rgb(171, 249, 169);
+}
+.colorPastilla5{
+  background-color: rgb(235, 235, 235);
+}
+.colorPastilla6{
+  background-color: rgb(192, 194, 239);
+}
+.colorPastilla7{
+  background-color: rgb(205, 251, 202);
+}
+.colorPastilla8{
+  background-color: rgb(255,251,180);
+}
+.colorPastilla9{
+  background-color: rgb(206,175,254);
+}
+.colorPastilla10{
+  background-color: rgb(245,198,168);
+}
+.colorPastilla11{
+  background-color: rgb(249,220,201);
+}
+.colorPastilla12{
+  background-color: rgb(149, 93, 201);
+}
+
+.fondoIndicadores{
+  background-color: rgb(205, 251, 202);
+}
+
+.indexNav {
+  z-index: 999; }
+
+
+.tamImgServ {
+  width: 5rem; }
+
+.tamImgCte {
+  width: 30rem; }
+
+.tamImgCont {
+  width: 3rem; }
+
+.tamImgFooter {
+    width: 4rem; }
+
+.tamImgFooter2 {
+  width: 1.5rem; }
+
+.textFooterWs{
+  text-decoration: none;
+  text-align: center;
+}
+
+.tamImgGtest {
+  width: 4rem; }
+
+
+.tamImgContMenu {
+  width: 28px; }
+
+.fondoblanco {
+  background-color: white; }
+
+.textJusify {
+  text-align: justify; }
+
+.fondoServicios {
+  background-color: #343a34; }
+
+.tarjServicios {
+  border: solid;
+  border-color: grey;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  background-color: #222222;
+  color: white; }
+
+.fondoEquipo {
+  background-color: #343a34; }
+
+.fondoContacto {
+  background-color: #222222;
+  color: white; }
+
+.fondoGtest {
+  background-color: #343a34;
+  color: white; }
+
+.fondoPagCont {
+  background-color: #343a34;
+  color: white; }
+
+.gap {
+  grid-gap: 20px; }
+
+.altobanner {
+  height: 13.5rem; }
+
+.paletaTextHome {
+  color: #F277A4; }
+
+
+.paleta4 {
+  color: #6E30F2; }
+
+.paleta5 {
+  color: #4129D9; }
+
+.paleta6 {
+  color: #503FBF; }
+
+.paleta7 {
+  color: #7162D9; }
+
+.paleta8 {
+  color: #3C74A6; }
+
+.paleta9 {
+  color: #6CD9B1; }
+
+.paleta10 {
+  color: #5ABFAD; }
+
+.paleta11 {
+  color: white; }
+
+.paleta12 {
+  color: #3b3b3b; }
+
+.paleta13 {
+  color: #00d4ff; }
+
+.paleta14 {
+  color: #ffff00; }
+
+.tamTextRelax{
+    font-size: 40px;
+       }
+
+.alinTextRelax1{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-right: 250px;
+          }
+.alinTextRelax2{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-right: 250px;
+        }
+
+
+
+
+@media (max-width: 1100px) {
+    .tamImgHeader {
+      width: 3rem; }
+
+    .ocultar{
+      display: none;
+    }
+
+    .tamImgHome {
+      height: 33rem;
+     }
+
+    .respPequeñoHome{
+        background: url(../img/escritorio2.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        } 
+        
+    .tamTextHome{
+          margin:0;
+          padding:0;
+          font-size: 40px;
+         }
+
+    .alinTextHome{
+      text-align: right;
+      margin:0;
+      padding:0;
+      padding-right: 50px;
+          }
+
+    .fondoImgRelax{
+            background: url(../img/delegar.jpg);
+            background-repeat: no-repeat;
+            background-position:-45px;
+            background-size:cover;
+            height: 33rem;
+            
+            }
+    .tamTextRelax{
+          font-size: 30px;
+             }
+    .alinTextRelax1{
+          text-align: right;
+          margin: 0px;
+          padding: 0px;
+          margin-top: 15px;
+          margin-right: 250px;
+                }
+    .alinTextRelax2{
+          text-align: right;
+          margin: 0px;
+          padding: 0px;
+          margin-top: 5px;
+          margin-right: 250px;
+              }
+    
+}
+
+
+@media (max-width: 900px) {
+  .tamImgHeader {
+    width: 3rem; }
+
+  .ocultar{
+    display: none;
+  }
+
+  .tamImgHome {
+    height: 33rem;
+   }
+
+  .respPequeñoHome{
+      background: url(../img/escritorio2.jpg);
+      background-repeat: no-repeat;
+      background-position:center left;
+      background-size:cover;
+      } 
+      
+  .tamTextHome{
+        margin:0;
+        padding:0;
+        font-size: 30px;
+        font-weight: bold;
+       }
+
+  .alinTextHome{
+          text-align: right;
+          margin:0;
+          padding:0;
+          padding-right: 50px;
+        }
+
+  .ajusteContender{
+    display: block;
+  }
+
+  
+  .fondoImgRelax{
+          background: url(../img/delegar.jpg);
+          background-repeat: no-repeat;
+          background-position:-45px;
+          background-size:cover;
+          height: 33rem;
+          
+          }
+  .tamTextRelax{
+          font-size: 27px;
+        
+           }
+
+  .alinTextRelax1{
+            text-align: left;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 50px;
+            margin-left: 258px;
+          }
+  .alinTextRelax2{
+              text-align: left;
+              margin: 0px;
+              padding: 0px;
+              margin-top: 5px;
+              margin-left: 258px;
+            }
+  
+  
+  
+  
+  }
+
+  @media (max-width: 610px) {
+    .tamImgHeader {
+      width: 3rem; }
+
+    .ocultar{
+      display: none;
+    }
+
+    .tamImgHome {
+      height: 33rem;
+     }
+
+    .respPequeñoHome{
+        background: url(../img/f3.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        } 
+        
+    .tamTextHome{
+          margin:0;
+          padding:0;
+          font-size: 30px;
+          font-weight: bold;
+         }
+
+    .alinTextHome{
+          text-align: left;
+            padding-top: 1px;
+            text-align: left;
+          }
+    .displayTextHome{
+            display: block;
+            
+          }
+    .fondoImgRelax{
+            background: url(../img/delegar.jpg);
+            background-repeat: no-repeat;
+            background-position:-45px;
+            background-size:cover;
+            height: 33rem;
+            
+            }
+    .tamTextRelax{
+            font-size: 26px;
+          
+             }
+    .alinTextRelax1{
+              text-align: right;
+              margin: 0px;
+              padding: 0px;
+              margin-top: 50px
+
+
+            }
+    .alinTextRelax2{
+                text-align: right;
+                margin: 0px;
+                padding: 0px;
+                margin-top: 0px
+              }
+    
+
+    }
+    
+  
+
+
+
 
